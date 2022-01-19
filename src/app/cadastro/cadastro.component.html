@@ -1,0 +1,82 @@
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col-md-5" id="img-bg"></div>
+
+    <div class="col-md-6 ml-5 mt-10 mb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10">
+          <h1 class="text-center">cadastro.</h1>
+
+          <div class="form-group">
+            <label for="nome">nome</label>
+            <input
+              class="form-control"
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="nome completo"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="usuario">usuário</label>
+            <input
+              class="form-control"
+              type="text"
+              name="usuario"
+              id="usuario"
+              placeholder="seu usário"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="foto">link foto de perfil</label>
+            <input
+              class="form-control"
+              type="text"
+              name="foto"
+              id="foto"
+              placeholder="url foto de perfil"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="usuario">senha</label>
+            <input
+              class="form-control"
+              type="password"
+              name="senha"
+              id="senha"
+              placeholder="sua senha"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="usuario">confirmar senha</label>
+            <input
+              class="form-control"
+              type="password"
+              name="confirmarSenha"
+              id="confirmarSenha"
+              placeholder="confirme sua senha"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="usuario">tipo de usuario</label>
+            <select class="form-control" name="tipo" id="tipo">
+              <option>selecione um tipo de usuário:</option>
+              <option value="normal"></option>
+              <option value="administrador"></option>
+            </select>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-danger mr-4">cancelar</button>
+            <button type="submit" class="btn btn-success">cadastrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

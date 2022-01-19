@@ -1,0 +1,10 @@
+#img-bg{
+  background-image: url('https://i.imgur.com/Nzo95P8.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mt-10{
+  margin-top: 10rem;
+}
