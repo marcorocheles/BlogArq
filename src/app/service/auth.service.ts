@@ -30,7 +30,7 @@ export class AuthService {
   }
   
   cadastrar(user: User): Observable<User>{
-    return this.http.post<User>('https://blogpessoalthiago.herokuapp.com/usuarios/cadastrar', user, this.token)
+    return this.http.post<User>('https://blogpessoalthiago.herokuapp.com/usuarios/cadastrar', user)
   }
 
   atualizar(user: User): Observable<User>{
